@@ -1,0 +1,120 @@
+/*
+bg color: E2BBEC
+inner bg: A877B5
+font: https://fonts.google.com/specimen/Hubballi
+*/
+@font-face {
+    font-family: "Regular-font";
+    src: url("../public/assets/fonts/Hubballi/Hubballi-Regular.ttf") format("truetype");
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+body {
+    background-color: #e2bbec;
+    font-family: Regular-font;
+}
+
+.App {
+    text-align: left;
+    margin: 100px 80px;
+    background-color: red;
+    /*standin*/
+}
+
+.Title {
+    background-color: orange;
+    /*standin*/
+}
+
+.Navbar {
+    background-color: yellow;
+    /*standin*/
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Content {
+    background-color: #A877B5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Welcome-square {
+    background-color: #e2bbec;
+    width: 1100px;
+    height: 172px;
+    margin: 50px 330px;
+    padding: 30px;
+}
+
+.char-header {
+    grid-area: "char-header";
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.character-prev {
+    background-color: aqua;
+    /*standin*/
+    //margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Char-square {
+    background-color: green;
+    /*standin*/
+    width: 1100px;
+    height: inherit;
+    margin: 50px 330px;
+}
+
+.Site-at-a-glance {
+    background-color: blue;
+    /*standin*/
+}
+
+.Footer {
+    background-color: pink;
+    /*standin*/
+}
+
+.see-more-proj {
+    background-color: salmon;
+    /*standin*/
+}
+
+.support-me {
+    background-color: beige;
+    /*standin*/
+}
