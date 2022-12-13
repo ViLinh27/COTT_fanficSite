@@ -121,7 +121,7 @@ function App() {
         </div>
         {/* end of char square */}
 
-        <div className="sec-header">
+        <div className="sec-header" id="siteGlance">
           <h4>Site at a Glance</h4>
         </div>
         <div className="Site-at-a-glance">
@@ -130,51 +130,55 @@ function App() {
               <h5>Characters</h5>
               <ol className="ol-2">
                 <li>
-                  <p>The New Underlings</p>
+                  <p><a href="">The New Underlings</a></p>
                   <ol className="ol-3">
-                    <li><p>Pomelia Fuentes</p></li>
-                    <li><p>Enrico Valentino</p></li>
-                    <li><p>Orfeo Valentino</p></li>
+                    <li><p><a href="">Pomelia Fuentes</a></p></li>
+                    <li><p><a href="">Enrico Valentino</a></p></li>
+                    <li><p><a href="">Orfeo Valentino</a></p></li>
+                    <li><p><a href="">Hailey MacAllister</a></p></li>
+                    <li><p><a href="">Hannah MacAllister</a></p></li>
+                    <li><p><a href="">Akira Yamaguchi</a></p></li>
+                    <li><p><a href="">Aurelie Saint-Germain</a></p></li>
                   </ol>
                 </li>
-                <li><p>Komos</p></li>
-                <li><p>Erato</p></li>
-                <li><p>The Fuentes family</p></li>
-                <li><p>The Valentino</p></li>
-                <li><p>Professor Yamaguchi</p></li>
+                <li><p><a href="">Komos</a></p></li>
+                <li><p><a href="">Erato</a></p></li>
+                <li><p><a href="">The Fuentes family</a></p></li>
+                <li><p><a href="">The Valentino</a></p></li>
+                <li><p><a href="">Professor Yamaguchi</a></p></li>
               </ol>
             </li>
             <li>
               <h5>Mythical</h5>
               <ol>
-                <li><p>Atropos</p></li>
-                <li><p>Melinoe</p></li>
-                <li><p>Rhea</p></li>
+                <li><p><a href="">Atropos</a></p></li>
+                <li><p><a href="">Melinoe</a></p></li>
+                <li><p><a href="">Rhea</a></p></li>
               </ol>
             </li>
             <li>
               <h5>Locations</h5>
               <ol>
-                <li><p>The Ariti Dormitories</p></li>
-                <li><p>Romulus High</p></li>
-                <li><p>Faunus</p></li>
+                <li><p><a href="">The Ariti Dormitories</a></p></li>
+                <li><p><a href="">Romulus High</a></p></li>
+                <li><p><a href="">Faunus</a></p></li>
               </ol>
             </li>
             <li>
               <h5>Chapters</h5>
               <ol>
-                <li><p>Cronus has new underlings</p></li>
-                <li><p>Cronus’s wife comes into play</p></li>
-                <li><p>What of the Prophesy?</p></li>
-                <li><p>Exchange Students</p></li>
-                <li><p>Pomelia Fuentes</p></li>
-                <li><p>The New Restaurant</p></li>
-                <li><p>Herry’s headspace</p></li>
-                <li><p>The Artefacts</p></li>
-                <li><p>Trouble in Paradise for the chaos couple</p></li>
-                <li><p>Chemistry</p></li>
-                <li><p>The Full Moon</p></li>
-                <li><p>Europe’s network of magic users</p></li>
+                <li><p><a href="">Cronus has new underlings</a></p></li>
+                <li><p><a href="">Cronus’s wife comes into play</a></p></li>
+                <li><p><a href="">What of the Prophesy?</a></p></li>
+                <li><p><a href="">Exchange Students</a></p></li>
+                <li><p><a href="">Pomelia Fuentes</a></p></li>
+                <li><p><a href="">The New Restaurant</a></p></li>
+                <li><p><a href="">Herry’s headspace</a></p></li>
+                <li><p><a href="">The Artefacts</a></p></li>
+                <li><p><a href="">Trouble in Paradise for the chaos couple</a></p></li>
+                <li><p><a href="">Chemistry</a></p></li>
+                <li><p><a href="">The Full Moon</a></p></li>
+                <li><p><a href="">Europe’s network of magic users</a></p></li>
               </ol>
             </li>
           </ol>
@@ -185,17 +189,17 @@ function App() {
         <div className="see-more-proj">
             <h4>See more of my projects</h4>
             <ul>
-              <li><h5>Github</h5></li>
-              <li><h5>Codepen</h5></li>
-              <li><h5>Deviantart</h5></li>
+              <li><h5><a href="">Github</a></h5></li>
+              <li><h5><a href="">Codepen</a></h5></li>
+              <li><h5><a href="">Deviantart</a></h5></li>
             </ul>
         </div>
         
         <div className="support-me">
           <h4>Support Me!</h4>
             <ul>
-              <li><h5>Ko-fi</h5></li>
-              <li><h5>Redbubble</h5></li>
+              <li><h5><a href="">Ko-fi</a></h5></li>
+              <li><h5><a href="">Redbubble</a></h5></li>
             </ul>
         </div>
       </div>
