@@ -3,6 +3,9 @@ bg color: E2BBEC
 inner bg: A877B5
 font: https://fonts.google.com/specimen/Hubballi
 */
+
+//--------------global
+//-----typograpy
 @font-face {
     font-family: "Regular-font";
     src: url("../public/assets/fonts/Hubballi/Hubballi-Regular.ttf") format("truetype");
@@ -28,6 +31,33 @@ h5 {
     font-size: 20px;
 }
 
+p {
+    font-size: 16px;
+}
+
+//-----lists
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ol.ol-2 {
+    list-style-type: lower-alpha;
+}
+
+ol.ol-3 {
+    list-style-type: lower-roman;
+}
+
+//-----images
+.img-char {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+//-----main elements
 body {
     background-color: #e2bbec;
     font-family: Regular-font;
@@ -36,17 +66,17 @@ body {
 .App {
     text-align: left;
     margin: 100px 80px;
-    background-color: red;
+    background-color: inherit;
     /*standin*/
 }
 
 .Title {
-    background-color: orange;
+    background-color: inherit;
     /*standin*/
 }
 
 .Navbar {
-    background-color: yellow;
+    background-color: inherit;
     /*standin*/
     text-align: center;
     display: flex;
@@ -64,6 +94,30 @@ body {
     align-content: center;
 }
 
+//-----footer
+.Footer {
+    background-color: #A877B5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.see-more-proj,
+.support-me {
+    /*standin*/
+    text-align: center;
+    padding: 10px 25px;
+}
+
+//--------------end of global
+
+
+
+//--------------home page:
+
 .Welcome-square {
     background-color: #e2bbec;
     width: 1100px;
@@ -72,49 +126,64 @@ body {
     padding: 30px;
 }
 
-.char-header {
+.sec-header {
     grid-area: "char-header";
-    width: 1100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.character-prev {
-    background-color: aqua;
-    /*standin*/
-    //margin: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin: 50px 330px 25px 330px;
 }
 
 .Char-square {
-    background-color: green;
-    /*standin*/
+    background-color: inherit;
     width: 1100px;
-    height: inherit;
-    margin: 50px 330px;
+    height: 1100px;
+    margin: 25px 330px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.character-prev {
+    background-color: #e2bbec;
+    /*standin*/
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: black;
+    opacity: 0;
+}
+
+.character-prev:hover
+.overlay {
+    opacity: 0.7;
+}
+
+.overlay-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .Site-at-a-glance {
-    background-color: blue;
-    /*standin*/
+    background-color: #e2bbec;
+    width: 1100px;
+    margin: 25px 330px;
 }
 
-.Footer {
-    background-color: pink;
-    /*standin*/
-}
-
-.see-more-proj {
-    background-color: salmon;
-    /*standin*/
-}
-
-.support-me {
-    background-color: beige;
-    /*standin*/
-}
+//--------------end of home page
