@@ -2,12 +2,6 @@ import '../App.scss';
 import React from 'react';
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 
-import HomePage from '../pages/Homepage/HomePage.js';
-import Chapters from '../pages/Chapterspage/Chapterspage.js';
-import Characters from '../pages/Characterspage/Characterspage.js';
-import Locations from '../pages/Locationspage/Locationspage.js';
-import Mythical from '../pages/Mythicalpage/Mythicalpage.js';
-
 function Navbar(){{/**need to fiture out router */}
     return(
       <div className="Navbar">
