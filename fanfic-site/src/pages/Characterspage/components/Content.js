@@ -18,73 +18,87 @@ function Content(){
             <div className="char_main">
               {/*Pomelia */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Pomelia001.jpg" alt="Pomelia" className="char_main-prev-img"/>
-                <p>Pomelia Fuentes</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Pomelia Fuentes</p>
+                <Link to="/characters/Pomelia">
+                  <img src="../../../assets/images/Pomelia001.jpg" alt="Pomelia" className="char_main-prev-img"/>
+                  <p>Pomelia Fuentes</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Pomelia Fuentes</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/*Enrico */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Enrico001.jpg" alt="Enrico" className="char_main-prev-img"/>
-                <p>Enrico Valentino</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Enrico Valentino</p>
+                <Link to="/characters/Enrico">
+                  <img src="../../../assets/images/Enrico001.jpg" alt="Enrico" className="char_main-prev-img"/>
+                  <p>Enrico Valentino</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Enrico Valentino</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/*Orfeo */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Orfeo001.jpg" alt="Orfeo" className="char_main-prev-img"/>
-                <p>Orfeo Valentino</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Orfeo Valentino</p>
+                <Link to="/characters/Orfeo">
+                  <img src="../../../assets/images/Orfeo001.jpg" alt="Orfeo" className="char_main-prev-img"/>
+                  <p>Orfeo Valentino</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Orfeo Valentino</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/*Hailey */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Hailey001.jpg" alt="Hailey" className="char_main-prev-img"/>
-                <p>Hailey MacAllister</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Hailey MacAllister</p>
+                <Link to="/characters/Hailey">
+                  <img src="../../../assets/images/Hailey001.jpg" alt="Hailey" className="char_main-prev-img"/>
+                  <p>Hailey MacAllister</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Hailey MacAllister</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/*Hannah */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Hannah001.jpg" alt="Hannah" className="char_main-prev-img"/>
-                <p>Hannah MacAllister</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Hannah MacAllister</p>
+                <Link to="/characters/Hannah">
+                  <img src="../../../assets/images/Hannah001.jpg" alt="Hannah" className="char_main-prev-img"/>
+                  <p>Hannah MacAllister</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Hannah MacAllister</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/*Akira */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Akira001.jpg" alt="Akira" className="char_main-prev-img"/>
-                <p>Akira Yamaguchi</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Akira Yamaguchi</p>
-                  </div>
+                <Link to="/characters/Akira">
+                  <img src="../../../assets/images/Akira001.jpg" alt="Akira" className="char_main-prev-img"/>
+                  <p>Akira Yamaguchi</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Akira Yamaguchi</p>
+                    </div>
                 </div>
+                </Link>
               </div>
               {/*aurelie */}
               <div className="char_main-prev">
-                <img src="../../../assets/images/Aurelie001.jpg" alt="Aurelie" className="char_main-prev-img"/>
-                <p>Aurelie St-Germain</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Aurelie St-Germain</p>
+                <Link to="/characters/Aurelie">
+                  <img src="../../../assets/images/Aurelie001.jpg" alt="Aurelie" className="char_main-prev-img"/>
+                  <p>Aurelie St-Germain</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Aurelie St-Germain</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -95,23 +109,27 @@ function Content(){
             <div className="char_main">
               {/**komos */}
               <div className="char_main-prev">
-                <img src="" alt="Komos" className="char_main-prev-img"/>
-                <p>Komos</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Komos</p>
+                <Link to="/characters/Komos">
+                  <img src="" alt="Komos" className="char_main-prev-img"/>
+                  <p>Komos</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Komos</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/**erato */}
               <div className="char_main-prev">
-                <img src="" alt="Erato" className="char_main-prev-img"/>
-                <p>Erato</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Erato</p>
+                <Link to="/characters/Erato">
+                  <img src="" alt="Erato" className="char_main-prev-img"/>
+                  <p>Erato</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Erato</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/**the fuentes */}
               <div className="char_main-prev">
