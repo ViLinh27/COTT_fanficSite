@@ -133,33 +133,39 @@ function Content(){
               </div>
               {/**the fuentes */}
               <div className="char_main-prev">
-                <img src="" alt="The Fuentes" className="char_main-prev-img"/>
-                <p>The Fuentes Family</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>The Fuentes Family</p>
+                <Link to="">
+                  <img src="" alt="The Fuentes" className="char_main-prev-img"/>
+                  <p>The Fuentes Family</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>The Fuentes Family</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/**the valentino */}
               <div className="char_main-prev">
-                <img src="" alt="The Valentino" className="char_main-prev-img"/>
-                <p>The Valentino Family</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>The Valentino Family</p>
+                <Link to="">
+                  <img src="" alt="The Valentino" className="char_main-prev-img"/>
+                  <p>The Valentino Family</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>The Valentino Family</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               {/**prof yamaguchi */}
               <div className="char_main-prev">
-                <img src="" alt="Prof Yamaguchi" className="char_main-prev-img"/>
-                <p>Professor Yamaguchi</p>
-                <div className="overlay">
-                  <div className="overlay-text">
-                    <p>Professor Yamaguchi</p>
+                <Link to="">
+                  <img src="" alt="Prof Yamaguchi" className="char_main-prev-img"/>
+                  <p>Professor Yamaguchi</p>
+                  <div className="overlay">
+                    <div className="overlay-text">
+                      <p>Professor Yamaguchi</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
             

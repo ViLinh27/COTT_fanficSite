@@ -12,27 +12,27 @@ font: https://fonts.google.com/specimen/Hubballi
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 21px;
 }
 
 //-----lists
@@ -122,20 +122,20 @@ body {
     background-color: #e2bbec;
     width: 1100px;
     height: 172px;
-    margin: 50px 330px;
+    margin: 50px 590px;
     padding: 30px;
 }
 
 .sec-header {
     grid-area: "char-header";
-    margin: 50px 330px 25px 330px;
+    margin: 50px 590px 25px 590px;
 }
 
 .Char-square {
     background-color: inherit;
     width: 1100px;
     height: 1100px;
-    margin: 25px 330px;
+    margin: 25px 590px;
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -183,7 +183,7 @@ body {
 .Site-at-a-glance {
     background-color: #e2bbec;
     width: 1100px;
-    margin: 25px 330px;
+    margin: 25px 590px;
 }
 
 //--------------end of home page
@@ -191,7 +191,7 @@ body {
 //--------------characters page
 .char_main {
     background-color: #e2bbec;
-    margin: 50px 330px;
+    margin: 50px 590px;
     padding: 30px;
     width: 1100px;
     display: flex;
@@ -220,6 +220,44 @@ body {
     object-fit: cover;
 }
 
+//char stats page
+.charstats-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 45px;
+}
+
+.charstats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 15px 45px;
+}
+
+.charstats-summary {
+    //background-color: red;
+    width: 65%;
+}
+
+.charstats-statsbox {
+    background-color: #e2bbec;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.char-statsbox_name {
+    text-align: center;
+}
+
+.char-statsbox_image {}
+
+.char-statsbox_info {}
+
 //--------------end of characters page
 
 //--------------mythical page
@@ -230,17 +268,17 @@ body {
 .chapterlist_container {
     background-color: #e2bbec;
     width: 1100px;
-    margin: 50px 330px;
+    margin: 50px 590px;
     padding: 30px;
 }
 
-.chapter-header{
-    margin-bottom:10px;
+.chapter-header {
+    margin-bottom: 10px;
 }
 
-.chapter-info{
+.chapter-info {
     background-color: #A877B5;
-    width:900px;
+    width: 900px;
     margin: 15px 25px;
     padding: 15px;
 }
