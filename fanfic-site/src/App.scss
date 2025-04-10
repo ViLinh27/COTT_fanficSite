@@ -120,9 +120,9 @@ body {
 
 .Welcome-square {
     background-color: #e2bbec;
-    width: 1100px;
+    width: 1000px;
     height: 172px;
-    margin: 50px 590px;
+    margin: 50px auto;
     padding: 30px;
 }
 
@@ -267,8 +267,8 @@ body {
 //--------------chapters page
 .chapterlist_container {
     background-color: #e2bbec;
-    width: 990px;
-    margin: 50px 50px;
+    width: 1000px;
+    margin: 50px auto;
     padding: 30px;
 }
 
@@ -290,7 +290,6 @@ body {
     .Welcome-square {
         width: 900px;
         height: 170px;
-        margin: 50px 150px;
         padding: 30px;
     }
 
@@ -343,6 +342,15 @@ body {
         width: 95px;
         height: 95px;
     }
+
+    .chapterlist_container{
+        width:900px;
+    }
+
+    .chapter-info{
+        width:800px;
+    }
+
 }
 
 @media only screen and (max-width: 1000px) {
