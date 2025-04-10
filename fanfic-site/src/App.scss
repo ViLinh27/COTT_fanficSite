@@ -485,8 +485,29 @@ body {
         width: 120px;
         height: 120px;
     }
+    .Footer{
+        width:600px;
+    }
 }
 
+@media only screen and (max-width: 600px){
+    .Content{
+        width:500px;
+        margin: auto;
+    }
+    .Welcome-square{
+        width:400px;
+    }
+    .chapterlist_container{
+        width:400px;
+    }
+    .chapter-info{
+        width:350px;
+    }
+    .Footer{
+        width:500px;
+    }
+}
 @media only screen and (max-width: 428px) {
 
     ul,
