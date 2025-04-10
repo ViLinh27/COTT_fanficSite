@@ -353,9 +353,24 @@ body {
 
 }
 
+@media only screen and (max-width: 1200px){
+    .Content{
+        width:950px;
+    }
+    .Welcome-square{
+        width:650px;
+    }
+    .chapterlist_container{
+        width:650px;
+    }
+    .chapter-info{
+        width:600px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .Welcome-square {
-        width: 570px;
+        width: 500px;
         height: 170px;
         margin: 30px 100px;
         padding: 30px;
