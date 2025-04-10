@@ -491,21 +491,27 @@ body {
 }
 
 @media only screen and (max-width: 600px){
+    .Title{
+        margin: auto 0;
+    }
+    .Navbar{
+        width:450px;
+    }
     .Content{
-        width:500px;
+        width:450px;
         margin: auto;
     }
     .Welcome-square{
-        width:400px;
-    }
-    .chapterlist_container{
-        width:400px;
-    }
-    .chapter-info{
         width:350px;
     }
+    .chapterlist_container{
+        width:350px;
+    }
+    .chapter-info{
+        width:300px;
+    }
     .Footer{
-        width:500px;
+        width:450px;
     }
 }
 @media only screen and (max-width: 428px) {
