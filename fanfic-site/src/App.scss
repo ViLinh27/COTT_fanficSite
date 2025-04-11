@@ -191,7 +191,7 @@ body {
 //--------------characters page
 .char_main {
     background-color: #e2bbec;
-    margin: 50px 590px;
+    margin: 50px auto;
     padding: 30px;
     width: 1100px;
     display: flex;
@@ -321,7 +321,7 @@ body {
 
     //------chararacters page
     .char_main {
-        margin: 50px 150px;
+        margin: 50px 100px;
         padding: 30px;
         width: 900px;
         display: flex;
@@ -343,34 +343,45 @@ body {
         height: 95px;
     }
 
-    .chapterlist_container{
-        width:900px;
+    .chapterlist_container {
+        width: 900px;
     }
 
-    .chapter-info{
-        width:800px;
+    .chapter-info {
+        width: 800px;
     }
 
 }
 
-@media only screen and (max-width: 1200px){
-    .Content{
-        width:950px;
+@media only screen and (max-wdith: 1300px) {
+    .char_main {
+        margin: 50px;
     }
-    .Welcome-square{
-        width:650px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Content {
+        width: 950px;
     }
-    h4{
+
+    .Welcome-square {
+        width: 650px;
+    }
+
+    h4 {
         font-size: x-large;
     }
-    h5{
-        font-size:larger;
+
+    h5 {
+        font-size: larger;
     }
-    .chapterlist_container{
-        width:650px;
+
+    .chapterlist_container {
+        width: 650px;
     }
-    .chapter-info{
-        width:600px;
+
+    .chapter-info {
+        width: 600px;
     }
 }
 
@@ -422,22 +433,26 @@ body {
 }
 
 @media only screen and (max-width: 810px) {
-    .Content{
-        width:600px;
+    .Content {
+        width: 600px;
     }
+
     .Welcome-square {
         width: 450px;
         height: 250px;
         margin: 20px auto;
         padding: 30px;
     }
-    .chapterlist_container{
-        width:450px;
+
+    .chapterlist_container {
+        width: 450px;
         margin: 20px auto;
     }
-    .chapter-info{
-        width:400px;
+
+    .chapter-info {
+        width: 400px;
     }
+
     .sec-header {
         grid-area: "char-header";
         margin: 20px 70px 10px 70px;
@@ -485,36 +500,47 @@ body {
         width: 120px;
         height: 120px;
     }
-    .Footer{
-        width:600px;
+
+    .Footer {
+        width: 600px;
     }
 }
 
-@media only screen and (max-width: 600px){
-    .Title{
+@media only screen and (max-width: 600px) {
+    .Title {
         margin: auto 0;
     }
-    .Navbar{
-        width:450px;
+
+    .Navbar {
+        width: 450px;
     }
-    .Content{
-        width:450px;
+
+    .Content {
+        width: 450px;
         margin: auto;
     }
-    .Welcome-square{
-        width:350px;
+
+    .Welcome-square {
+        width: 350px;
     }
-    .chapterlist_container{
-        width:350px;
+
+    .chapterlist_container {
+        width: 350px;
     }
-    .chapter-info{
-        width:300px;
+
+    .chapter-info {
+        width: 300px;
     }
-    .Footer{
-        width:450px;
+
+    .Footer {
+        width: 450px;
     }
 }
+
 @media only screen and (max-width: 428px) {
+    .Navbar {
+        width: 250px;
+    }
 
     ul,
     ol {
@@ -538,6 +564,10 @@ body {
         height: 430px;
         margin: 15px 25px;
         padding: 7px;
+    }
+
+    .Content {
+        width: 250px;
     }
 
     .sec-header {
@@ -598,6 +628,15 @@ body {
     .char_main-prev-img {
         width: 150px;
         height: 150px;
+    }
+
+    .chapterlist_container {
+        width: 150px;
+    }
+
+    .chapter-info {
+        width: 130px;
+        margin: 0;
     }
 }
 
